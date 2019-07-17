@@ -185,7 +185,7 @@ header .loisirs {
 /* == SECTION COMPETENCES & LANGUES */
 /*---------------------------------------- */
 
-#skills img{
+.skills img{
 	display: none;
 }
 
