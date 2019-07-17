@@ -19,7 +19,7 @@
 /* Light Grey : #9e9e9e */
 
 /* ---------------------------------------- */
-/* == ÉLÉMENTS PRINCIPAUX */
+/* == GLOBAL */
 /*---------------------------------------- */
 
 body {
@@ -28,15 +28,29 @@ body {
 
 #bloc_page {
 	width: 100%;
+	background-color: #f5f5f5;
 	text-align: justify;
 	font-family: 'Poppins';
 	font-size: 18px;
 	color: #737373;
 }
 
+
+/*Liens*/
+a {
+	color: #737373;
+}
+
+a:hover {
+	color: #adacac;
+}
+
+
+/*Titres*/
 h1, h2, h3 {
 	margin: 0;
     text-transform: uppercase;
+    text-align: left;
 }
 
 h1 {
@@ -57,27 +71,56 @@ h3 {
 	color: #455a64;
 }
 
+
+/*Paragraphes*/
 p{
 	margin: 0;
+	line-height: 23px;
 }
 
+
+/*Sections*/
 header p, section {
 	padding: 4%;
 }
 
-a {
-	color: #737373;
+section .title {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #9e9e9e;
 }
 
-a:hover {
-	color: #adacac;
+section .title h2 {
+	padding-left: 2%;
+    line-height: 25px;
+}
+
+
+/*Listes*/
+ul {
+	padding: 10px;
+    margin: 0;
+}
+
+
+/*Formations & Xp Pro*/
+.dates {
+	font-size: 16px;
+}
+
+.où_quoi {
+	margin-bottom: 5%;
+	line-height: 20px;
 }
 
 /* ---------------------------------------- */
-/* == LISERÉ */
+/* == HEADER */
 /*---------------------------------------- */
 
 header {
+    margin-bottom: 5%;
 	background-color: #263238;
 }
 
@@ -91,6 +134,7 @@ header h2 {
 .id_img{
 	display: flex;
 	justify-content: center;
+	padding-top: 5%;
 }
 
 #id_img {
@@ -128,17 +172,15 @@ header .loisirs {
 	display: none;
 }
 
-/* ---------------------------------------- */
-/* == SECTION FORMATION */
-/*---------------------------------------- */
-
 
 
 /* ---------------------------------------- */
 /* == SECTION EXPERIENCE PROFESSIONNELLE */
 /*---------------------------------------- */
 
-
+#exp_pro .descr {
+	margin-bottom: 5%;
+}
 
 /* ---------------------------------------- */
 /* == SECTION COMPETENCES & LANGUES */
