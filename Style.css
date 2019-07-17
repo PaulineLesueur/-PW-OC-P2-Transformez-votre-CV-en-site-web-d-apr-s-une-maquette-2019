@@ -115,6 +115,7 @@ ul {
 	line-height: 20px;
 }
 
+
 /* ---------------------------------------- */
 /* == HEADER */
 /*---------------------------------------- */
@@ -181,6 +182,7 @@ header .loisirs {
 	margin-bottom: 5%;
 }
 
+
 /* ---------------------------------------- */
 /* == SECTION COMPETENCES & LANGUES */
 /*---------------------------------------- */
@@ -191,4 +193,70 @@ header .loisirs {
 
 #skills p{
 	margin-top: -3%;
+}
+
+
+/* ---------------------------------------- */
+/* == MEDIA QUERIES */
+/*---------------------------------------- */
+
+/*     Format tablette      */
+
+@media screen and (min-width: 768px) {
+
+	/*Global*/
+	section {
+		padding-bottom: 0;
+	}
+
+	section .title {
+    	padding-bottom: 1%;
+	}
+
+	.où_quoi {
+    	margin-bottom: 2%;
+	}
+
+
+	/*Header*/
+	header {
+		margin: 0;
+	}
+
+	header .identity {
+		padding: 3% 0 5% 0;
+	}
+
+	header .contact {
+		padding-bottom: 5%;
+	}
+
+	header .loisirs {
+		display: block;
+	}
+
+	header .content_loisirs {
+		display: flex;
+		justify-content: center;
+	}
+
+	/*Section compétences & Langues*/
+
+	.skills img {
+		display: block;
+	}
+
+	#skills ul {
+    	list-style-type: none;
+    	display: flex;
+    	justify-content: space-around;
+    	padding-top: 30px;
+	}
+
+	#skills li {
+		display: flex;
+   	 	flex-direction: column;
+   		 align-items: center;
+	}
+
 }
