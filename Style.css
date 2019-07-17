@@ -68,7 +68,22 @@ header, section {
 /* == LISERÉ */
 /*---------------------------------------- */
 
+header {
+	background-color: #263238;
+}
 
+/*Photo d'identité*/
+.id_img{
+	display: flex;
+	justify-content: center;
+}
+
+#id_img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	border: 5px solid #737373;
+}
 
 /* ---------------------------------------- */
 /* == SECTION FORMATION */
