@@ -34,6 +34,14 @@ body {
 	color: #737373;
 }
 
+a {
+	color: #737373;
+}
+
+a:hover {
+	color: #adacac;
+}
+
 h1, h2, h3 {
 	margin: 0;
     text-transform: uppercase;
@@ -65,12 +73,17 @@ header p, section {
 	padding: 4%;
 }
 
-a {
-	color: #737373;
+section .title {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid #9e9e9e;
 }
 
-a:hover {
-	color: #adacac;
+section .title h2 {
+	padding-left: 2%;
+    text-align: left;
+    line-height: 25px;
 }
 
 /* ---------------------------------------- */
@@ -132,6 +145,7 @@ header .loisirs {
 /* ---------------------------------------- */
 /* == SECTION FORMATION */
 /*---------------------------------------- */
+
 
 
 
