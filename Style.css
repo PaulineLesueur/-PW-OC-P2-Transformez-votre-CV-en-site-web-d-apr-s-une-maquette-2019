@@ -46,6 +46,7 @@ h1 {
 }
 
 h2 {
+	width: 100%;
 	font-size: 26px;
 	font-weight: normal;
 	color: #455a64;
@@ -60,8 +61,16 @@ p{
 	margin: 0;
 }
 
-header, section {
+header p, section {
 	padding: 4%;
+}
+
+a {
+	color: #737373;
+}
+
+a:hover {
+	color: #adacac;
 }
 
 /* ---------------------------------------- */
@@ -70,6 +79,12 @@ header, section {
 
 header {
 	background-color: #263238;
+}
+
+header h2 {
+	background-color: #737373;
+	text-align: center;
+	color: #263238;
 }
 
 /*Photo d'identité*/
@@ -94,8 +109,18 @@ header {
 	line-height: 30px;
 }
 
+.identity p{
+	padding: 0;
+}
+
 h1 span{
 	color: #455a64;
+}
+
+/*Contact*/
+header .contact {
+	padding-bottom: 7%;
+	line-height: 20px;
 }
 
 /* ---------------------------------------- */
