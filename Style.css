@@ -85,6 +85,19 @@ header {
 	border: 5px solid #737373;
 }
 
+/*Identité*/
+.identity {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5% 0 10% 0;
+	line-height: 30px;
+}
+
+h1 span{
+	color: #455a64;
+}
+
 /* ---------------------------------------- */
 /* == SECTION FORMATION */
 /*---------------------------------------- */
