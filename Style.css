@@ -123,6 +123,11 @@ header .contact {
 	line-height: 20px;
 }
 
+/*Loisirs*/
+header .loisirs {
+	display: none;
+}
+
 /* ---------------------------------------- */
 /* == SECTION FORMATION */
 /*---------------------------------------- */
