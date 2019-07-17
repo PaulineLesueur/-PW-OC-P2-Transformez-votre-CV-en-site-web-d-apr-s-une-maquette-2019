@@ -173,7 +173,6 @@ header .loisirs {
 }
 
 
-
 /* ---------------------------------------- */
 /* == SECTION EXPERIENCE PROFESSIONNELLE */
 /*---------------------------------------- */
@@ -185,3 +184,11 @@ header .loisirs {
 /* ---------------------------------------- */
 /* == SECTION COMPETENCES & LANGUES */
 /*---------------------------------------- */
+
+#skills img{
+	display: none;
+}
+
+#skills p{
+	margin-top: -3%;
+}
