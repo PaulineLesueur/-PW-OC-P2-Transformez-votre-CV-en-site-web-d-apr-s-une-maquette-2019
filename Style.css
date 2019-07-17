@@ -22,7 +22,47 @@
 /* == ÉLÉMENTS PRINCIPAUX */
 /*---------------------------------------- */
 
+body {
+	margin: 0;
+}
 
+#bloc_page {
+	width: 100%;
+	text-align: justify;
+	font-family: 'Poppins';
+	font-size: 18px;
+	color: #737373;
+}
+
+h1, h2, h3 {
+	margin: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: normal;
+	color: #9e9e9e;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #455a64;
+}
+
+h3 {
+	font-size: 22px;
+	color: #455a64;
+}
+
+p{
+	margin: 0;
+}
+
+header, section {
+	padding: 4%;
+}
 
 /* ---------------------------------------- */
 /* == LISERÉ */
