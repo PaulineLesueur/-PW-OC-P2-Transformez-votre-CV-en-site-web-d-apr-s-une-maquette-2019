@@ -91,6 +91,7 @@ header h2 {
 .id_img{
 	display: flex;
 	justify-content: center;
+	padding-top: 5%;
 }
 
 #id_img {
