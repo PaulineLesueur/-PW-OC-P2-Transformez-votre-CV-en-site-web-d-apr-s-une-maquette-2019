@@ -86,11 +86,17 @@ section .title h2 {
     line-height: 25px;
 }
 
+ul {
+	padding: 10px;
+    margin: 0;
+}
+
 /* ---------------------------------------- */
 /* == LISERÉ */
 /*---------------------------------------- */
 
 header {
+    margin-bottom: 5%;
 	background-color: #263238;
 }
 
@@ -146,8 +152,14 @@ header .loisirs {
 /* == SECTION FORMATION */
 /*---------------------------------------- */
 
+.dates {
+	font-size: 16px;
+}
 
-
+.où_quoi {
+	margin-bottom: 5%;
+	line-height: 20px;
+}
 
 /* ---------------------------------------- */
 /* == SECTION EXPERIENCE PROFESSIONNELLE */
