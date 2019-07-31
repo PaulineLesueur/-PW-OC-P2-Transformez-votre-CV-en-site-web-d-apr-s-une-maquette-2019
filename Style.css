@@ -39,6 +39,11 @@ body {
 	color: #737373;
 }
 
+/*Icones*/
+.fas {
+	font-size: 30px;
+}
+
 /*Liens*/
 a {
 	color: #737373;
